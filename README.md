@@ -8,7 +8,6 @@ Prototype of [Pttrns](https://pttrns.com) to show the overlay on a static image.
 
 ![AudioPlayer Prototypes Preview](https://s3.amazonaws.com/f.cl.ly/items/0X1y3I1U0m3t0a2K1i28/Image%202015-08-29%20at%202.53.23%20pm.png)
 
-—
 
 ## Including module
 To include this module, download the grid.coffee file and put it in the `/modules` folder of your prototype.
