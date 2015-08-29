@@ -31,7 +31,7 @@ Grid = new gridOverlay.Grid
 
 You can pass parameters to adjust the grid to your project’s needs.
 
-**Note: if you don't change the value of a parameter, the value will be set to the default one.**
+**Note: if you don't change the value of a parameter, the value will be set to default.**
 
 ```coffeescript
 Grid = new gridOverlay.Grid
