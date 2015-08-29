@@ -20,7 +20,7 @@ gridOverlay = require “grid”
 
 ## Installation
 
-To create a grid, you add this line of code to your prototype.
+To create a grid, add this line of code to your prototype.
 
 ```coffeescript
 Grid = new gridOverlay.Grid
@@ -28,7 +28,7 @@ Grid = new gridOverlay.Grid
 
 ## Customization
 
-You can pass parameters to adjust the grid to your project’s needs.
+Pass parameters to adjust the grid to your project’s needs.
 
 **Note: if you don't change the value of a parameter, the value will be set to default.**
 
