@@ -3,11 +3,12 @@ class exports.Grid extends Layer
 		options.backgroundColor ?= "transparent"
 		options.width ?= Screen.width
 		options.height ?= Screen.height
-		options.offset ?= 10
 		options.amount ?= 10
 		options.gutWidth ?= 20
-		options.colWidth ?= 50
+		options.colWidth ?= 78
 		options.gridColor ?= "rgba(243, 57, 52, 0.5)"
+		offset = (Screen.width / 2) - (options.amount * (options.colWidth + options.gutWidth) / 2)
+		options.offset ?= offset + (0.5 * options.gutWidth)
 		
 		super options
 
